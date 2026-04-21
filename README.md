@@ -26,7 +26,7 @@ https://asciinema.org/a/LA6rinJabsLQk8VVlFqrX6Gm
 Brain-gcd
 В терминале выводится два случайных числа, пользователь должен вычислить и ввести наибольший общий делитель этих чисел. Запустить игру brain-gcd или make brain-gcd.
 
-https://asciinema.org/a/LohzzaBrtnyXBvoCN7tEmFsf
+https://asciinema.org/a/LohzzaBrtmnyXBvoCN7tEmFsf
 
 Brain-progression
 В терминале выводится ряд чисел, в виде арифметической прогрессии, но любое из чисел заменится двумя точками. Пользователь должен узнать и написать это число. Запустить игру brain-progression или make brain-progression.
