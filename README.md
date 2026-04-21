@@ -11,8 +11,6 @@ make install
 Brain-games
 Первый проект: вступление
 
-https://asciinema.org/a/526759
-
 Brain-even
 В терминале выводится случайное число, ты должен ответить "да", если число четное, в ином случае - "нет". Запуск игру brain-even или make brain-even.
 
