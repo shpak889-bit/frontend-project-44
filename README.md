@@ -32,5 +32,5 @@ Brain-progression
 https://asciinema.org/a/mMIgQUhGsjcrx8aybXpwzsjD0
 
 Brain-prime
-В терминале выводися случайное число, пользователь должен ответить "да", если число простое, в ином случае - "нет". Запустить игру brain-prime или make brain-prime.
+В терминале выводися случайное число, пользователь должен ответить "да", если число простое, в ином случа - "нет". Запустить игру brain-prime или make brain-prime.
 https://asciinema.org/a/M6STqSRdE15pI0Q3LmwNiTNE1
