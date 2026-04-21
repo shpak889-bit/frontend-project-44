@@ -1,3 +1,4 @@
+brain-games
 install: 
 	npm ci
 	
