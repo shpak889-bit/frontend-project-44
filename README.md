@@ -9,7 +9,7 @@ git clone https://github.com/shpak889-bit/frontend-project-44.git
 make install
 и запустить игру .
 Brain-games
-Первый проект: вступление
+Первый проект: вступление.
 
 Brain-even
 В терминале выводится случайное число, ты должен ответить "да", если число четное, в ином случае - "нет". Запуск игру brain-even или make brain-even.
