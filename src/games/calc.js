@@ -1,7 +1,7 @@
-import game from '../index.js';
-import getRandomNumber from '../random.js';
+import game from '../index.js'
+import getRandomNumber from '../random.js'
 
-const rules = 'What is the result of the expression?';
+const rules = 'What is the result of the expression?'
 
 const calculator = (firstArgument, secondArgument, operator) => {
   switch (operator) {
@@ -12,25 +12,24 @@ const calculator = (firstArgument, secondArgument, operator) => {
     case '*':
       return firstArgument * secondArgument;
     default:
-      return null;
+      return null
   }
-};
+}
 
 const getQuestionAndAnswer = () => {
-  const operators = ['+', '-', '*'];
-  const firstArgument = getRandomNumber(1, 50);
-  const secondArgument = getRandomNumber(1, 50);
-  const randomOperator = operators[getRandomNumber(0, operators.length - 1)];
-  const question = `${firstArgument} ${randomOperator} ${secondArgument}`;
+  const operators = ['+', '-', '*']
+  const firstArgument = getRandomNumber(1, 50)
+  const secondArgument = getRandomNumber(1, 50)
+  const randomOperator = operators[getRandomNumber(0, operators.length - 1)]
+  const question = `${firstArgument} ${randomOperator} ${secondArgument}`
   const correctAnswer = String(
     calculator(firstArgument, secondArgument, randomOperator),
-  );
+  )
 
-  return [question, correctAnswer];
-};
+  return [question, correctAnswer]
+}
 
 const startGame = () => {
-  game(rules, getQuestionAndAnswer);
-};
-
-export default startGame;
+  game(rules, getQuestionAndAnswer)
+}
+export default startGame
