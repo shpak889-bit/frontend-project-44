@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/shpak889-bit/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/shpak889-bit/frontend-project-44/actions)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=shpak889-bit_frontend-project-44&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=shpak889-bit_frontend-project-44)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=shpak889-bit_frontend-project-44&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=shpak889-bit_frontend-project-44)
 Запуск проекта:
 Сначала нужно склонировать репозиторий
 
