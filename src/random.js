@@ -1,6 +1,10 @@
-const getRandomNumber = (min, max) => {
-  const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min
-  return randomNumber
-}
 
+const getRandomNumber = (min, max) => {
+  const range = max - min + 1
+  const array = new Uint32Array(1)
+  
+  window.crypto.getRandomValues(array)
+
+  return min + (array[0] % range)
+}
 export default getRandomNumber
