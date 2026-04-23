@@ -10,28 +10,28 @@ const getProgretion = (startNumber, step, length) => {
       progression.push(startNumber)
     } 
     else {
-      const previousNumber = progression[i - 1];
-      const nextNumber = previousNumber + step;
-      progression.push(nextNumber);
+      const previousNumber = progression[i - 1]
+      const nextNumber = previousNumber + step
+      progression.push(nextNumber)
     }
   }
-  return progression;
-};
+  return progression
+}
 
 const getQuestionAndAnswer = () => {
-  const startNumber = getRandomNumber(0, 15);
-  const step = getRandomNumber(1, 10);
-  const length = 10;
-  const progression = getProgretion(startNumber, step, length);
-  const indexOfMissingNumber = getRandomNumber(0, length - 1);
-  const correctAnswer = String(progression[indexOfMissingNumber]);
-  progression[indexOfMissingNumber] = '..';
-  const question = progression.join(' ');
-  return [question, correctAnswer];
-};
+  const startNumber = getRandomNumber(0, 15)
+  const step = getRandomNumber(1, 10)
+  const length = 10
+  const progression = getProgretion(startNumber, step, length)
+  const indexOfMissingNumber = getRandomNumber(0, length - 1)
+  const correctAnswer = String(progression[indexOfMissingNumber])
+  progression[indexOfMissingNumber] = '..'
+  const question = progression.join(' ')
+  return [question, correctAnswer]
+}
 
 const startGame = () => {
-  game(rules, getQuestionAndAnswer);
-};
+  game(rules, getQuestionAndAnswer)
+}
 
-export default startGame;
+export default startGame
