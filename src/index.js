@@ -1,6 +1,9 @@
 // @ts-check
 import readlineSync from 'readline-sync';
-
+/**
+ * @param {string} rules
+ * @param {function} getQuestionAndAnswer
+ */
 const game = (rules, getQuestionAndAnswer) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
