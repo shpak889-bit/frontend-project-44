@@ -6,11 +6,11 @@ const rules = 'What is the result of the expression?'
 const calculator = (firstArgument, secondArgument, operator) => {
   switch (operator) {
     case '+':
-      return firstArgument + secondArgument;
+      return firstArgument + secondArgument
     case '-':
-      return firstArgument - secondArgument;
+      return firstArgument - secondArgument
     case '*':
-      return firstArgument * secondArgument;
+      return firstArgument * secondArgument
     default:
       return null
   }

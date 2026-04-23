@@ -28,7 +28,7 @@ const getQuestionAndAnswer = () => {
   progression[indexOfMissingNumber] = '..'
   const question = progression.join(' ')
   return [question, correctAnswer]
-};
+}
 
 const startGame = () => {
   game(rules, getQuestionAndAnswer)

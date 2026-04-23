@@ -20,7 +20,7 @@ const game = (rules, getQuestionAndAnswer) => {
         `'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
       )
       console.log(`Let's try again, ${name}!`)
-      return;
+      return
     }
     attempts -= 1
   }
