@@ -28,4 +28,4 @@ const game = (rules, getQuestionAndAnswer) => {
   console.log(`Congratulations, ${name}!`)
 }
 
-export default game
+export default game;
